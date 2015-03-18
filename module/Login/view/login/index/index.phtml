@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style type="text/css">   
+   #loading-mask{
+      position:absolute;
+      left:0;
+      top:0;
+      width:100%;
+      height:100%;
+      z-index:20000;
+      background-color:white;
+   }
+   #loading{
+      position:absolute;
+      top:50%;
+      left:50%;
+      width:300px;
+      height:50px;
+      margin-left:-150px;
+      margin-top:-25px;
+      z-index:20001;
+      height:auto;
+   }
+   #loading a {
+      color:#225588;
+   }
+   #loading .loading-indicator{
+      background:white;
+      color:#444;
+      font:bold 13px tahoma,arial,helvetica;
+      padding:10px;
+      margin:0;
+      height:auto;
+   }
+   #loading-msg {
+      font: normal 10px arial,tahoma,sans-serif;
+      color:red;
+   }
+   #ext-msg {
+      font: normal 10px arial,tahoma,sans-serif;
+   }
+</style>
+    <meta charset="UTF-8">
+    <title>Login - Sistema de Gerenciamento de Chamados</title>
+
+
+
+</head>
+<body>
+<div id="loading-mask" style=""></div>
+<div id="loading">
+   <div class="loading-indicator">
+      <img src="/~hepshego/ajax_loader_blue_512.gif" width="50" height="50" style="margin-right:8px;float:left;vertical-align:top;"/>
+      Sistema de Gerenciamento de Chamados - Prefeitura Municipal de Santa Helena de Goiás<br />
+      <span id="ext-msg">Desenvolvido com ExtJs. <a href="http://extjs.com">extjs.com</a></span>
+      <br />
+      <br />
+      <span id="loading-msg">Carregando Estilos...
+      </span>
+   </div>
+</div>
+
+<link rel="stylesheet" href="/~hepshego/Login/resources/Login-all.css"/>
+<link rel="stylesheet" href="/~hepshego/Login/resources/style.css"/>
+<script type="text/javascript">document.getElementById('loading-msg').innerHTML = 'Carregando Sistema...';</script>
+<script type="text/javascript" src="/~hepshego/Login/mapper.php"></script>
+<script type="text/javascript" src="/~hepshego/Login/app.js"></script>
+<script type="text/javascript">document.getElementById('loading-msg').innerHTML = 'Abrindo Login...';</script>
+
+
+</body>
+</html>
