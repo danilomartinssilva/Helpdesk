@@ -1,0 +1,109 @@
+.myTopo{
+	background:#3b5998 !important;
+	/*font-family: Arial;*/
+	/*font-size:18px;*/
+}
+
+#tbtext-1011{
+	color: white !important;
+	font-size: 14px;
+	font-family: 'Trebuchet Ms';
+	/*font-weight: bold;*/
+	
+}
+#tbtext-1013{
+	color: white !important;
+	font-size: 14px;
+	font-family: 'Trebuchet Ms';
+	/*font-weight: bold;*/
+	
+}
+#tbtext-1015{
+	color: white !important;
+	font-size: 14px;
+	font-family: 'Trebuchet Ms';
+	/*font-weight: bold;*/
+	
+}
+#tbtext-1023{
+	color: white !important;
+	//font-size: 14px;
+	font-family: 'Trebuchet Ms';
+	/*font-weight: bold;*/
+	
+}
+
+/*
+Botoes*/
+#button-1017-btnInnerEl{
+	color: white !important;}
+
+#button-1015-btnInnerEl{
+	color: #00000 !important;
+}
+
+/*ICONES*/
+.icone_ajuda{
+	background-image:url("icones/icone_ajuda.png") !important;
+}
+.icone_logoff{
+	background-image:url("icones/icone_sair.png") !important;
+}
+.icone_add{
+	background-image:url("icones/icone_add.png") !important;
+}
+.icone_excluir{
+	background-image:url("icones/icone_excluir.png") !important;
+}
+.icone_impressora{
+	background-image:url("icones/icone_impressora.png") !important;
+}
+.icone_grafico{
+	background-image:url("icones/icone_grafico.png") !important;
+}
+.icone_lupa{
+	background-image:url("icones/icone_lupa.png") !important;
+}
+
+.icone_refresh{
+	background-image:url("icones/icone_refresh.png") !important;
+}
+.icone_limpar{
+	background-image:url("icones/icone_limpar.png") !important;
+}
+.icone_cancelar{
+	background-image:url("icones/icone_cancelar.png") !important;
+}
+.icone_clientes{
+	background-image:url("icones/icone_clientes.png") !important;
+}
+.icone_categoria{
+	background-image:url("icones/icone_categoria.png") !important;
+}
+
+.icone_chamados{
+	background-image:url("icones/icone_chamados.png") !important;
+}
+.icone_listar{
+	background-image:url("icones/icone_listar.png") !important;
+}
+.icone_departamento{
+	background-image:url("icones/icone_departamento.png") !important;
+}
+.icone_pendencia{
+	background-image:url("icones/icone_pendencia.png") !important;
+}
+
+.icone_administracao{
+	background-image:url("icones/icone_administracao.png") !important;
+}
+.icone_cadeado{
+	background-image:url("icones/icone_cadeado.png") !important;
+}
+
+.icone_login{
+	background-image:url("icones/icone_cadeado.png") !important;
+}
+
+
+
